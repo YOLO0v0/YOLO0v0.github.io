@@ -68,7 +68,7 @@
 <li><p>链接文本放在中括号内，链接地址放在后面的括号中，链接title可选(title是当鼠标悬停在链接上时会出现的文字，这个title是可选的，它放在圆括号中链接地址后面，跟链接地址之间以空格分隔。)。<br>超链接Markdown语法代码：<br>[超链接显示名](超链接地址 “超链接title”)<br><code>  [这是百度的链接](https://www.baidu.com &quot;鼠标悬停显示&quot;)渲染效果如下</code></p>
 <p>  <a href="https://www.baidu.com/" title="鼠标悬停显示">这是百度的链接</a></p>
 </li>
-<li><p>网址和Email地址<br>使用尖括号可以把URL或者email地址变成可点击的链接<br><code>&lt;https://www.baidu.com&gt; &lt;windxxd@163.com&gt;渲染效果如下</code><br><a href="https://www.baidu.com/">https://www.baidu.com</a><br><a href="mailto:&#x77;&#x69;&#x6e;&#100;&#120;&#120;&#x64;&#64;&#49;&#x36;&#51;&#46;&#99;&#x6f;&#x6d;">&#x77;&#x69;&#x6e;&#100;&#120;&#120;&#x64;&#64;&#49;&#x36;&#51;&#46;&#99;&#x6f;&#x6d;</a></p>
+<li><p>网址和Email地址<br>使用尖括号可以把URL或者email地址变成可点击的链接<br><code>&lt;https://www.baidu.com&gt; &lt;windxxd@163.com&gt;渲染效果如下</code><br><a href="https://www.baidu.com/">https://www.baidu.com</a><br><a href="mailto:&#119;&#x69;&#110;&#100;&#120;&#120;&#100;&#64;&#x31;&#54;&#51;&#46;&#99;&#x6f;&#109;">&#119;&#x69;&#110;&#100;&#120;&#120;&#100;&#64;&#x31;&#54;&#51;&#46;&#99;&#x6f;&#109;</a></p>
 <h1 id="图片语法"><a href="#图片语法" class="headerlink" title="图片语法"></a>图片语法</h1></li>
 <li><p>要添加图像，使用感叹号 !, 然后在方括号增加替代文本，图片链接放在圆括号里，括号里的链接后可以增加一个可选的图片标题文本。<br><code>![图片alt](图片链接 &quot;图片title&quot;)</code></p>
 <h1 id="转义语法"><a href="#转义语法" class="headerlink" title="转义语法"></a>转义语法</h1></li>
@@ -79,5 +79,38 @@
       <tags>
         <tag>入门</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/02/09/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <tags>
+        <tag>biaoqian1</tag>
+        <tag>biaoqian2</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>测试</title>
+    <url>/1970/01/01/%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><p>file:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.mdfile:&#x2F;&#x2F;&#x2F;E:&#x2F;Blog&#x2F;测试.md</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">x=[0.32 0.34 0.36];</span><br><span class="line">y=[0.314567 0.333487 0.353274];</span><br><span class="line">x0=0.3367;</span><br><span class="line">m=length(x);</span><br><span class="line">n=length(y);</span><br><span class="line">if m~=n</span><br><span class="line">    disp(&#x27;向量x与向量y的长度必须一致&#x27;);</span><br><span class="line">    return;</span><br><span class="line">end</span><br><span class="line">m0=length(x0);</span><br><span class="line">for i=1:m0</span><br><span class="line">    t=0.0;</span><br><span class="line">    for j=1:m</span><br><span class="line">        u=1.0;</span><br><span class="line">        for k=1:m</span><br><span class="line">            if k~=j</span><br><span class="line">                u=u*(x0(i)-x(k))/(x(j)-x(k));</span><br><span class="line">            end</span><br><span class="line">        end</span><br><span class="line">        t=t+u*y(j);</span><br><span class="line">    end</span><br><span class="line">    s=t;</span><br><span class="line">end</span><br><span class="line">disp(s);</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+  </entry>
+  <entry>
+    <title>练习</title>
+    <url>/2022/02/10/%E7%BB%83%E4%B9%A0/</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>
