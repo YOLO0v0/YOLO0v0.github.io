@@ -1,138 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title></title>
-    <url>/2022/02/10/%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[<h1 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h1><p>C语言<del>C语言</del><br><mark>标记&#96;&#96;</mark></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">代码块阿西</span><br></pre></td></tr></table></figure>
-<p><code>啊洗澡</code><br>$f&#x3D;(x)$<br><a href="www.baidu.com">百度</a></p>
-<table>
-<thead>
-<tr>
-<th>a</th>
-<th>a</th>
-<th>a</th>
-<th>a</th>
-<th>a</th>
-<th>a</th>
-<th>a</th>
-<th>a</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>a</td>
-<td>a</td>
-<td>a</td>
-<td>a</td>
-<td>a</td>
-<td>a</td>
-<td>a</td>
-<td>a</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>星期四2周四</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">y=[0.314567 0.333487 0.353274];</span><br><span class="line">x0=0.3367;</span><br><span class="line">m=length(x);</span><br><span class="line">n=length(y);</span><br><span class="line">if m~=n</span><br><span class="line">    disp(&#x27;向量x与向量y的长度必须一致&#x27;);</span><br><span class="line">    return;</span><br><span class="line">end</span><br><span class="line">m0=length(x0);</span><br><span class="line">for i=1:m0</span><br><span class="line">    t=0.0;</span><br><span class="line">    for j=1:m</span><br><span class="line">        u=1.0;</span><br><span class="line">        for k=1:m</span><br><span class="line">            if k~=j</span><br><span class="line">                u=u*(x0(i)-x(k))/(x(j)-x(k));</span><br><span class="line">            end</span><br><span class="line">        end</span><br><span class="line">        t=t+u*y(j);</span><br><span class="line">    end</span><br><span class="line">    s=t;</span><br><span class="line">end</span><br><span class="line">disp(s);</span><br></pre></td></tr></table></figure>]]></content>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2022/02/09/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+    <title>Markdown基本语法语法初探（写blog的开始）</title>
+    <url>/2022/02/10/Markdown%E8%AF%AD%E6%B3%95%E5%88%9D%E6%8E%A2/</url>
+    <content><![CDATA[<p>Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。它使用易读易写的纯文本格式编写文档，可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式的文件。因简洁、高效、易读、易写，Markdown被大量使用，如Github、Wikipedia、简书等<br>Markdown的语法十分简单，常用的标记符号不超过十个，Markdown的语法十分简单，常用的标记符号不超过十个，用于日常写作记录绰绰有余，不到半小时就能完全掌握。</p>
+<h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1><ul>
+<li>一级标题<ul>
+<li># 这是一个一级标题，渲染效果如下所示<h1 id="这是一个一级标题，渲染效果如下所示"><a href="#这是一个一级标题，渲染效果如下所示" class="headerlink" title="这是一个一级标题，渲染效果如下所示"></a>这是一个一级标题，渲染效果如下所示</h1></li>
+</ul>
+</li>
+<li>二级标题<ul>
+<li>##这是一个二级标题，渲染效果如下所示<h2 id="这是一个二级标题，渲染效果如下所示"><a href="#这是一个二级标题，渲染效果如下所示" class="headerlink" title="这是一个二级标题，渲染效果如下所示"></a>这是一个二级标题，渲染效果如下所示</h2></li>
+</ul>
+</li>
+</ul>
+<p><strong>以此类推，最多可到六个‘#’号键’#‘号之间不可以有空格</strong></p>
+<h1 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h1><p>段落于段落之间可以使用空白行和多段空白行隔开</p>
+<p>就像这样<br><strong>多段空白行和一段空白行所产生的实际效果一样。两个或多个空格进行换行，称为 结尾空格（trailing whitespace) 的方式，但这是有争议的，因为很难在编辑器中直接看到空格，并且很多人在每个句子后面都会有意或无意地添加两个空格。由于这个原因，你可能要使用除结尾空格以外的其它方式来换行。为了兼容性，请在行尾添加“结尾空格”或 HTML 的 &lt;br&gt; 标签来实现换行。</strong></p>
+<h1 id="强调语法"><a href="#强调语法" class="headerlink" title="强调语法"></a>强调语法</h1><ul>
+<li>要加粗文本，可以单词或短语的前后各添加两个星号<br> *<em>这是一段加粗文本，渲染效果如下所示</em>*</li>
+</ul>
+<p><strong>这是一段加粗文本，渲染效果如下所示</strong></p>
+<ul>
+<li>要使用斜体显示文本，可以在单词前后各添加一个星号<br> *这是一段斜体，渲染效果如下所示*</li>
+</ul>
+<p><em>这是一段斜体，渲染效果如下所示</em></p>
+<ul>
+<li>要同时用粗体和斜体突出显示文本，可以在单词或短语的前后各添加三个星号或下划线<br> *** 这是同时使用斜体和粗体的文本，渲染效果如下所示。***</li>
+</ul>
+<p><em><strong>这是同时使用斜体和粗体的文本，渲染效果如下所示。</strong></em></p>
+<h1 id="引用语法"><a href="#引用语法" class="headerlink" title="引用语法"></a>引用语法</h1><ul>
+<li><p>要创建块引用，请在段落前添加一个&gt;符号<br> &gt; 这是一个块引用，渲染效果如下所示</p>
+<blockquote>
+<p>这是一个块引用，渲染效果如下所示- 块引用可以包含多个段落。为段落之间的空白行添加一个 &gt; 符号。</p>
+</blockquote>
+</li>
+<li><p>&gt; 这是一个多行引用块。<br>  &gt;<br>  &gt;这是一个多行引用块，渲染效果如下。</p>
+<blockquote>
+<p>这是一个多行引用块。</p>
+<p>这是一个多行引用块，渲染效果如下。</p>
+</blockquote>
+</li>
+<li><p>引用块可以嵌套，也可以包含其他Markdown格式的元素。但并非所有元素都可使用。</p>
+<h1 id="列表语法"><a href="#列表语法" class="headerlink" title="列表语法"></a>列表语法</h1></li>
+<li><p>有序列表<br>  创建有序列表，请在每个列表项前添加数字并紧跟一个英文句点.</p>
+  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1.这是第一行  </span><br><span class="line">2.这是第二行  </span><br><span class="line">3.这是第三行</span><br><span class="line">渲染效果如下</span><br></pre></td></tr></table></figure>
+<p>  1.这是第一行<br>  2.这是第二行<br>  3.这是第三行</p>
+</li>
+<li><p>要创建无序列表，请在每个列表项前面添加破折号 (-)、星号 (*) 或加号 (+) 。缩进一个或多个列表项可创建嵌套列表。</p>
+  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">-这是第一行  </span><br><span class="line">-这是第二行  </span><br><span class="line">-这是第三行</span><br><span class="line">渲染效果如下</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<ul>
+<li>这是第一行  </li>
+<li>这是第二行  </li>
+<li>这是第三行</li>
+</ul>
+</li>
+<li><p>列表之间也可包含其他Markdown格式的元素。但并非所有元素都可使用如。</p>
+<h1 id="代码语法"><a href="#代码语法" class="headerlink" title="代码语法"></a>代码语法</h1></li>
+<li><p>要将单词或短语表示为代码，请将其包裹在反引号 ` 中。</p>
+<ul>
+<li>这是一段`代码`,渲染效果如下<br> 这是一段<code>代码</code>,渲染效果如下<h1 id="分割线语法"><a href="#分割线语法" class="headerlink" title="分割线语法"></a>分割线语法</h1></li>
+</ul>
+</li>
+<li><p>要创建分隔线，请在单独一行上使用三个或多个星号 (***)、破折号 (—) 或下划线 (<em><strong>) ，并且不能包含其他内容。<br>  ***<br>  ---<br>  ______</strong></em><br>  以上三种渲染效果一样，如下</p>
+<hr>
+<h1 id="链接语法"><a href="#链接语法" class="headerlink" title="链接语法"></a>链接语法</h1></li>
+<li><p>链接文本放在中括号内，链接地址放在后面的括号中，链接title可选(title是当鼠标悬停在链接上时会出现的文字，这个title是可选的，它放在圆括号中链接地址后面，跟链接地址之间以空格分隔。)。<br>超链接Markdown语法代码：<br>[超链接显示名](超链接地址 “超链接title”)<br><code>  [这是百度的链接](https://www.baidu.com &quot;鼠标悬停显示&quot;)渲染效果如下</code></p>
+<p>  <a href="https://www.baidu.com/" title="鼠标悬停显示">这是百度的链接</a></p>
+</li>
+<li><p>网址和Email地址<br>使用尖括号可以把URL或者email地址变成可点击的链接<br><code>&lt;https://www.baidu.com&gt; &lt;windxxd@163.com&gt;渲染效果如下</code><br><a href="https://www.baidu.com/">https://www.baidu.com</a><br><a href="mailto:&#x77;&#x69;&#x6e;&#100;&#120;&#120;&#x64;&#64;&#49;&#x36;&#51;&#46;&#99;&#x6f;&#x6d;">&#x77;&#x69;&#x6e;&#100;&#120;&#120;&#x64;&#64;&#49;&#x36;&#51;&#46;&#99;&#x6f;&#x6d;</a></p>
+<h1 id="图片语法"><a href="#图片语法" class="headerlink" title="图片语法"></a>图片语法</h1></li>
+<li><p>要添加图像，使用感叹号 !, 然后在方括号增加替代文本，图片链接放在圆括号里，括号里的链接后可以增加一个可选的图片标题文本。<br><code>![图片alt](图片链接 &quot;图片title&quot;)</code></p>
+<h1 id="转义语法"><a href="#转义语法" class="headerlink" title="转义语法"></a>转义语法</h1></li>
+<li><p>要显示原本用于格式化 Markdown 文档的字符，请在字符前面添加反斜杠字符 \ 。<br><code>\*前面这个星号是我要转义的&#39;\&#39;转义符与&#39;*&#39;之间不要有空格。渲染效果如下</code><br>*前面这个星号是我要转义的’&#39;转义符与’*’之间不要有空格。</p>
+</li>
+</ul>
 ]]></content>
-  </entry>
-  <entry>
-    <title>练习</title>
-    <url>/2022/02/10/%E7%BB%83%E4%B9%A0/</url>
-    <content><![CDATA[]]></content>
+      <tags>
+        <tag>入门</tag>
+      </tags>
   </entry>
 </search>
