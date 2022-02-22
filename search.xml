@@ -81,68 +81,6 @@ and code.</p>
       </tags>
   </entry>
   <entry>
-    <title>常用进制转换（8421）</title>
-    <url>/post/35754.html</url>
-    <content><![CDATA[<p>二进制（binary），发现者莱布尼茨，是在数学和数字电路中以2为基数的记数系统，是以2为基数代表系统的二进位制。这一系统中，通常用两个不同的符号0（代表零）和1（代表一）来表示
-。数字电子电路中，逻辑门的实现直接应用了二进制，现代的计算机和依赖计算机的设备里都使用二进制。每个数字称为一个比特（Bit，Binary
-digit的缩写）。<span id="more"></span></p>
-<h2 id="十进制">十进制</h2>
-<p>我们通常使用十进制（decimal）来满足计数需求。即：满十进一（也可以说逢十进一）以0~9为十个基本计数单位。如：
-0 1 2 3 4 5 6 7 8 9 逢十需要向前进位（进位后从零开始） 10 11 12 13 14 15
-16 17 18 19 20 21.......
-其他进制同理，其实常用的也就只有二进制（binary），八进制（Octal），十进制（decimal），十六进制（Hexadecimal）但掌握进制基本概念后也可以有三进制，四进制，五进制等等。</p>
-<h2 id="二进制">二进制</h2>
-<p>二进制（binary）也就是逢二进一 以0~1为两个基本计数单位。如： 0 1
-逢二需向前进位（进位后从零开始） 10 11 100 101 110 111 1000 1001 1010
-1101 1110 1111</p>
-<h2 id="特殊的十六进制">特殊的十六进制</h2>
-<p>十六进制是以0 1 2 3 4 5 6 7 8 9 A B C D E
-F<code>十六个基数单位</code>的进位制。其中A~F表示<code>10~15</code>，这些称作十六进制数字。这里要注意</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">0    1    2    3    4    5    6    7    8    9    A   B    C    D    E    F(需要进位)</span><br><span class="line">10    11    12    13    14    15    16    17    18    19    1A    1B    1C    1D    1E    1F（需要进位）</span><br><span class="line">20    21......</span><br></pre></td></tr></tbody></table></figure>
-<h2 id="位权">位权</h2>
-<p><code>位权</code>原理，即：
-<strong>一个数字，放在不同的位置上，代表不同大小的数</strong>。
-例如：</p>
-<ol type="1">
-<li>十进制：<span class="math inline">\(111=1*10^2+1*10^1+1*10^0\)</span></li>
-</ol>
-<p>这里十位和百位都是一但是它们代表的数值不同。从高位到低位：<code>100,10,1</code></p>
-<ol start="2" type="1">
-<li>二进制：<span class="math inline">\(111=1*2^2+1*2^1+1*2^0\)</span></li>
-</ol>
-<p>这里高位的1和低位的1代表的数值也不同。从高位到低位：<code>4,2,1</code></p>
-<ol start="3" type="1">
-<li>十六进制：<span class="math inline">\(111=1*16^2+1*16^1+1*16^0\)</span></li>
-</ol>
-<p>从高位到低位：<code>256,16,1</code></p>
-<h2 id="进制转换">进制转换</h2>
-<ol type="1">
-<li><p>二进制八进制十六进制转十进制（按位权求和）</p>
-<p><code>BIN: 1    0    1    1</code></p>
-<p><code>DEC:</code> <span class="math inline">\(1*2^3+0*2^2+1*2^1+1*2^0=11\)</span></p>
-<p><code>OCT: 1    0    1    1</code></p>
-<p><code>DEC:</code> <span class="math inline">\(1*8^3+0*8^2+1*8^1+1*8^0=521\)</span></p>
-<p><code>HEX: 1    0    1    1</code></p>
-<p><code>DEC:</code> <span class="math inline">\(1*16^3+0*16^2+1*16^1+1*16^0=4133\)</span></p></li>
-<li><p>八进制十进制十六进制转二进制 <code>OTC: 13</code> 计算过程如下
-</p><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">将13按位权拆分开</span><br><span class="line">   1              3</span><br><span class="line">———————        ———————</span><br><span class="line">4  2  1        4  2  1    </span><br><span class="line">———————        ———————</span><br><span class="line">0  0  1        0  1  1</span><br></pre></td></tr></tbody></table></figure> <code>BIN: 1    0    1    1</code><p></p>
-<p><code>HEX: 13</code> 计算过程如下 </p><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">    1                  3</span><br><span class="line">——————————         ——————————</span><br><span class="line">8  4  2  1         8  4  2  1    </span><br><span class="line">——————————         ——————————</span><br><span class="line">0  0  0  1         0  0  1  1</span><br></pre></td></tr></tbody></table></figure>
-<code>BIN: 1    0    0    1    1</code><p></p>
-<p><code>DEC:    13</code> 计算过程如下 </p><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">    13</span><br><span class="line">——————————</span><br><span class="line">8  4  2  1</span><br><span class="line">——————————</span><br><span class="line">1  1  0  1</span><br></pre></td></tr></tbody></table></figure>
-<code>BIN: 1    1    0    1</code><p></p></li>
-<li><p>二进制转十六进制</p>
-<p><code>BIN: 1    1    1    1</code> </p><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">1    1    1    1</span><br><span class="line">————————————————</span><br><span class="line">8    4    2    1    （8+4+2+1）</span><br><span class="line">————————————————</span><br><span class="line">       15</span><br><span class="line"> </span><br></pre></td></tr></tbody></table></figure>
-<code>HEX: 15</code><p></p></li>
-</ol>
-]]></content>
-      <categories>
-        <category>二进制</category>
-      </categories>
-      <tags>
-        <tag>入门</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Markdown基本语法语法初探（写blog的开始）</title>
     <url>/post/31159.html</url>
     <content><![CDATA[<p>Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版它使用易读易写的纯文本格式编写文档，可与HTML混编，可导出
@@ -237,6 +175,68 @@ HTML 的 &lt;br&gt; 标签来实现换行。</strong> # 强调语法 -
 ]]></content>
       <categories>
         <category>Markdown</category>
+      </categories>
+      <tags>
+        <tag>入门</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>常用进制转换（8421）</title>
+    <url>/post/35754.html</url>
+    <content><![CDATA[<p>二进制（binary），发现者莱布尼茨，是在数学和数字电路中以2为基数的记数系统，是以2为基数代表系统的二进位制。这一系统中，通常用两个不同的符号0（代表零）和1（代表一）来表示
+。数字电子电路中，逻辑门的实现直接应用了二进制，现代的计算机和依赖计算机的设备里都使用二进制。每个数字称为一个比特（Bit，Binary
+digit的缩写）。<span id="more"></span></p>
+<h2 id="十进制">十进制</h2>
+<p>我们通常使用十进制（decimal）来满足计数需求。即：满十进一（也可以说逢十进一）以0~9为十个基本计数单位。如：
+0 1 2 3 4 5 6 7 8 9 逢十需要向前进位（进位后从零开始） 10 11 12 13 14 15
+16 17 18 19 20 21.......
+其他进制同理，其实常用的也就只有二进制（binary），八进制（Octal），十进制（decimal），十六进制（Hexadecimal）但掌握进制基本概念后也可以有三进制，四进制，五进制等等。</p>
+<h2 id="二进制">二进制</h2>
+<p>二进制（binary）也就是逢二进一 以0~1为两个基本计数单位。如： 0 1
+逢二需向前进位（进位后从零开始） 10 11 100 101 110 111 1000 1001 1010
+1101 1110 1111</p>
+<h2 id="特殊的十六进制">特殊的十六进制</h2>
+<p>十六进制是以0 1 2 3 4 5 6 7 8 9 A B C D E
+F<code>十六个基数单位</code>的进位制。其中A~F表示<code>10~15</code>，这些称作十六进制数字。这里要注意</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">0    1    2    3    4    5    6    7    8    9    A   B    C    D    E    F(需要进位)</span><br><span class="line">10    11    12    13    14    15    16    17    18    19    1A    1B    1C    1D    1E    1F（需要进位）</span><br><span class="line">20    21......</span><br></pre></td></tr></tbody></table></figure>
+<h2 id="位权">位权</h2>
+<p><code>位权</code>原理，即：
+<strong>一个数字，放在不同的位置上，代表不同大小的数</strong>。
+例如：</p>
+<ol type="1">
+<li>十进制：<span class="math inline">\(111=1*10^2+1*10^1+1*10^0\)</span></li>
+</ol>
+<p>这里十位和百位都是一但是它们代表的数值不同。从高位到低位：<code>100,10,1</code></p>
+<ol start="2" type="1">
+<li>二进制：<span class="math inline">\(111=1*2^2+1*2^1+1*2^0\)</span></li>
+</ol>
+<p>这里高位的1和低位的1代表的数值也不同。从高位到低位：<code>4,2,1</code></p>
+<ol start="3" type="1">
+<li>十六进制：<span class="math inline">\(111=1*16^2+1*16^1+1*16^0\)</span></li>
+</ol>
+<p>从高位到低位：<code>256,16,1</code></p>
+<h2 id="进制转换">进制转换</h2>
+<ol type="1">
+<li><p>二进制八进制十六进制转十进制（按位权求和）</p>
+<p><code>BIN: 1    0    1    1</code></p>
+<p><code>DEC:</code> <span class="math inline">\(1*2^3+0*2^2+1*2^1+1*2^0=11\)</span></p>
+<p><code>OCT: 1    0    1    1</code></p>
+<p><code>DEC:</code> <span class="math inline">\(1*8^3+0*8^2+1*8^1+1*8^0=521\)</span></p>
+<p><code>HEX: 1    0    1    1</code></p>
+<p><code>DEC:</code> <span class="math inline">\(1*16^3+0*16^2+1*16^1+1*16^0=4133\)</span></p></li>
+<li><p>八进制十进制十六进制转二进制 <code>OTC: 13</code> 计算过程如下
+</p><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">将13按位权拆分开</span><br><span class="line">   1              3</span><br><span class="line">———————        ———————</span><br><span class="line">4  2  1        4  2  1    </span><br><span class="line">———————        ———————</span><br><span class="line">0  0  1        0  1  1</span><br></pre></td></tr></tbody></table></figure> <code>BIN: 1    0    1    1</code><p></p>
+<p><code>HEX: 13</code> 计算过程如下 </p><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">    1                  3</span><br><span class="line">——————————         ——————————</span><br><span class="line">8  4  2  1         8  4  2  1    </span><br><span class="line">——————————         ——————————</span><br><span class="line">0  0  0  1         0  0  1  1</span><br></pre></td></tr></tbody></table></figure>
+<code>BIN: 1    0    0    1    1</code><p></p>
+<p><code>DEC:    13</code> 计算过程如下 </p><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">    13</span><br><span class="line">——————————</span><br><span class="line">8  4  2  1</span><br><span class="line">——————————</span><br><span class="line">1  1  0  1</span><br></pre></td></tr></tbody></table></figure>
+<code>BIN: 1    1    0    1</code><p></p></li>
+<li><p>二进制转十六进制</p>
+<p><code>BIN: 1    1    1    1</code> </p><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">1    1    1    1</span><br><span class="line">————————————————</span><br><span class="line">8    4    2    1    （8+4+2+1）</span><br><span class="line">————————————————</span><br><span class="line">       15</span><br><span class="line"> </span><br></pre></td></tr></tbody></table></figure>
+<code>HEX: 15</code><p></p></li>
+</ol>
+]]></content>
+      <categories>
+        <category>二进制</category>
       </categories>
       <tags>
         <tag>入门</tag>
